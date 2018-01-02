@@ -1,0 +1,14 @@
+jqueryHtmlString2
+
+<span>Hello</span>
+<div></div>
+<div></div>
+<div></div>
+ 
+<script>
+$( "div" ).html( "<span class='red'>Hello <b>Again</b></span>" );
+</script>
+ 
+div에 있는 것들을 html에 나타나게 하는데 나타나는 것이 span class로서
+나타나게 되는데 글자들이 빨간색이로
+Again은 강조를 한다.

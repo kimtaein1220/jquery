@@ -1,0 +1,26 @@
+jqueryHtml3
+
+<body>
+
+<div></div>
+<div></div>
+<div></div>
+
+<script>
+	var abc ={
+		color: "red",
+		fontSize: "30px",
+		fontWeight: "bolder"
+
+	};
+$("div").html( "<b>Wow!</b> Such excitement..." );
+$("div b")
+ .append(document.createTextNode("!!!"))
+ .css(abc);
+</script>
+
+</body>
+
+div태그안에 글을 
+wow를 강조하고 Such excitment를 그냥 글로 나타내는데 wow에 !!!를 이동시켜서
+css에 함수 abc를 적용시킨다.

@@ -1,0 +1,13 @@
+jqueryHtml
+p태그안의 text의 클릭 버튼을 누르면은 함수 htmlString가 
+실행되서 이것을 html이 실행되는 코드를 보여줄 수 있게 변한다.
+
+jqueryHtmlString
+div 태그안에 wow를 강조하고 such excitement가 들어가고 
+div b태그인 wow에 !!!을 이동시켜서 css를 줘서 wow와!!!를 
+빨간색으로 강조한다. 
+append를 사용할때는 2개의 $이 있어야 한다.
+
+jqueryHtmlString
+Hello밑에
+div에 Hello를 레드로주고 again을 b태그니까 강조해라.
